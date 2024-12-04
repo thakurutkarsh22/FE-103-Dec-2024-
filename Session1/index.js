@@ -45,7 +45,36 @@ const containerElement = document.getElementById("container")
 console.log(containerElement);
 
 const clickHandler = () => {
-    containerElement.innerText = "box click"
+
+    // WE COULD GIVE OUR OWN CUSTOM HTML
+
+    // containerElement.innerHTML = "<b><u>box click</u></b>";
+
+
+    // LINE SPACE FORMATTING IS PRESERVED
+
+    // containerElement.innerText = `box clicked    
+    //     hello world 
+
+
+    //     hey htere 
+
+    //     nice
+    
+    // `;
+
+
+    // THERE IS NO FORMATTING 
+    containerElement.textContent = `box clicked    
+        hello world 
+
+
+        hey htere 
+
+        nice
+    
+    `;
+
     containerElement.style.background = "green";
 }
 
@@ -63,9 +92,42 @@ containerElement.addEventListener("mouseout", () => {
 
 
 // REMOVAL OF EVENT LISTNER
-setTimeout(() => {
-    console.log("hello after 5 sec")
-    containerElement.removeEventListener("click", clickHandler)
-}, 5000)
+// setTimeout(() => {
+//     console.log("hello after 5 sec")
+//     containerElement.removeEventListener("click", clickHandler)
+// }, 5000)
+
+
+
+// DOUBTS ....... 
+
+
+
+
+
+
+// PSEUDO CODE for module 1 and 2 
+/*
+const city = URLSearchParams("search url")
+
+const url = backendEndpoint + "/adventures?city=" + city
+
+
+// get the JSON 
+const response = await fetch(url);
+const data = await response.json();
+
+// ADD THE CARD FOR THE ITEM 
+Array.from(data).forEach(item => {
+    const card = document.createElement("div");
+    card.innerHTML = "Hey there I am created in JS" + item
+    card.className = "beautiful"
+    
+    document.body.appendChild(card);
+})
+    */
+
+
+
 
 
