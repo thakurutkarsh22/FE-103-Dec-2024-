@@ -71,8 +71,13 @@ formElement.addEventListener("submit", (event) => {
         date
     }
 
+    // VALIDATION is MUST BEFORE SENDING TO THE BACKEND.
+
+    // fetch*( )
+
     console.dir(appointmentObject);
 
+    // REGEX 
 
    
     console.log("submission - - - - - - -- - - - -");
