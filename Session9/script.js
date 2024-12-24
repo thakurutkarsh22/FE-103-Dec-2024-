@@ -101,3 +101,29 @@ showCOntent();
 //     var persist_duration_choice=document.getElementById("duration-select");
 //     persist_duration_choice.value=filters.duration;
 // }
+
+
+// LINK TO READ
+/**
+ * https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=1s
+ * https://javascript.info/
+ * https://web.dev/
+ * https://github.com/thakurutkarsh22
+ * https://javascriptpatterns.vercel.app/patterns
+ * 
+ * https://github.com/getify/You-Dont-Know-JS
+ */
+
+
+// Element.addEventListener("click", (event) => {
+//     event.stopPro(})
+//  } false)
+
+// console.log("a");
+// setTimeout(() => {
+//     console.log("b");   
+
+// }, 5000);
+// console.log("c");   
+
+//  localStorage, cookies, session storage, cache, indexed DB - sql
